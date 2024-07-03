@@ -1,0 +1,67 @@
+
+/* google fonts linking */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*global CSS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.ul{
+    margin: 0;
+    padding: 0;
+}
+a, a:hover{
+
+    text-decoration: none;
+}
+
+.container{
+
+    width: 1140px;
+    margin: 0 auto;
+}
+/*social media part css */
+
+.social-media{
+    text-align: center;
+    
+}
+
+
+.social-media ul li{
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid blue;
+    background-color: blue;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 65px;
+    border-radius: 8px;
+    transition: 0.4s;
+
+}
+.social-media ul li i{
+    color: white;
+    font-size: 25px;
+    transition: 0.4s;
+
+}
+.social-media ul li:hover{
+   
+   
+    transition: 0.4s;
+    
+
+}
+.social-media ul li:hover i{
+    transition: 0.4s;
+    transform: scale(1.5);
+
+}

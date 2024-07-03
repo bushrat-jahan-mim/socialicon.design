@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*google fonts linking*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+.main-box{
+  text-align: center;
+    width: 600px;
+    height: 400px;
+    background: green;
+    margin: 80px;
+    position: absolute;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+.main-box:hover{
+    
+      background: green;
+      margin: 80px;
+      position: absolute;
+      transform: scale(1.1);
+  }
+.child-box{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    background: red;
+    border: 1px solid red;
+    top: 100px;
+    left: 200px;
+    transition: 0.5s;
+}
+.child-box:hover{
+    
+    border-radius: 50%;
+    position: relative;
+    background: red;
+    top: 100px;
+    left: 200px;
+    transform: scale(1.2);
+    
+}
